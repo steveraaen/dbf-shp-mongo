@@ -1,7 +1,7 @@
 var express = require("express");
 var Parser = require('dbf-parser');
 var mongoose = require("mongoose");
-var pwds = require("./passwds");
+var pwds = require("../../random-exercises/nyc-parking/passwds.js");
 var Sign = require("./models/Signs.js");
 
 var app = express();
@@ -16,7 +16,7 @@ db.on("error", function(error) {
 db.once("open", function() {
     console.log("Mongoose connection successful.");
 // --------------- parse dbf file
-    var parser = new Parser('../../Parking_Regulation_Shapefile.dbf');
+    var parser = new Parser('../../random-exercises/nyc-parking/Parking_Regulation_Shapefile.dbf');
     parser.on('start', function(p) {
         console.log('dBase file parsing has started');
     });

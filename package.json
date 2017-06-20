@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/steveraaen/dbf-shp-mongo.git"
   },
-  "keywords": [],
+  "keywords": ["dbf", "shapefile", "mongodb", "nyc"],
   "author": "",
   "license": "ISC",
   "bugs": {
