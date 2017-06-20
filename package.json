@@ -1,0 +1,25 @@
+{
+  "name": "dbf-shp-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveraaen/dbf-shp-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveraaen/dbf-shp-mongo/issues"
+  },
+  "homepage": "https://github.com/steveraaen/dbf-shp-mongo#readme",
+  "dependencies": {
+    "dbf-parser": "0.0.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.7"
+  }
+}
